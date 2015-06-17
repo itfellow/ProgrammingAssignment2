@@ -5,8 +5,10 @@
 
 ##This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
-
-        cache << null
+        
+        test< "my test xxx"
+        cache < null
+  
 }
 
 
@@ -16,9 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ##then the cachesolve should retrieve the inverse from the cache.
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
-                inverse <- y$getInverse()
+        inverse <- x$getInverse()
         
-        }
 
 
 }
