@@ -2,6 +2,13 @@
 ## functions do
 # This project have a pair of functions that cache the inverse of a matrix.
 
+## testing 
+# assign makecachematrix to a matrix , eg abcmatrix <- makecachematrix(1:4,2)
+# accept pass in matrix via abcmatrix$set(matrix(1:4,3))
+# execute the cacheSolve function with the matrix as the input
+# additinal: get the identity matrix to show the inverse value are correct
+
+
 ## Write a short comment describing this function
 # This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
